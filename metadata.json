@@ -1,0 +1,6 @@
+{
+  "name": "Divine Journey AI",
+  "description": "Discover sacred destinations, plan personalized pilgrimages, and experience meaningful journeys with your intelligent spiritual travel companion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

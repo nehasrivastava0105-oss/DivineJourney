@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: #fbf9f8;
+    color: #1b1c1c;
+  }
+
+  h1, h2, h3, .font-serif-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+.glass-panel {
+  background-color: rgba(251, 249, 248, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(203, 167, 47, 0.35);
+}
+
+.glass-aura {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  box-shadow: 0 4px 30px rgba(0, 6, 102, 0.04);
+}
+
+.ai-glow {
+  box-shadow: 0 0 35px rgba(203, 167, 47, 0.18);
+}
+
+.ambient-shadow {
+  box-shadow: 0 8px 30px rgba(0, 6, 102, 0.05);
+}
+
+.soft-shadow {
+  box-shadow: 0 4px 30px rgba(0, 6, 102, 0.04);
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.mask-image-gradient {
+  mask-image: linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+  -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
